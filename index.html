@@ -202,8 +202,8 @@
   .popup-close{position:absolute;top:16px;right:16px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.15);border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:14px;color:rgba(255,255,255,0.6);display:flex;align-items:center;justify-content:center;transition:all .2s;}
   .popup-close:hover{background:rgba(255,255,255,0.2);color:#fff;}
   .popup-header{display:flex;align-items:flex-start;gap:18px;margin-bottom:22px;}
-  .popup-icon{width:90px;height:90px;border-radius:50%;overflow:hidden;border:3px solid rgba(255,255,255,0.15);flex-shrink:0;background:rgba(0,0,0,0.2);display:flex;align-items:center;justify-content:center;}
-  .popup-icon img{width:100%;height:100%;object-fit:cover;display:block;}
+  .popup-icon{width:90px;height:90px;border-radius:50%;overflow:hidden;border:3px solid rgba(255,255,255,0.15);flex-shrink:0;background:rgba(0,0,0,0.2);position:relative;display:flex;align-items:center;justify-content:center;}
+  .popup-icon img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block;}
   .popup-icon-fallback{font-size:40px;line-height:1;}
   .popup-titles{flex:1;}
   .popup-status{display:inline-flex;align-items:center;gap:6px;font-size:9px;letter-spacing:2px;text-transform:uppercase;font-weight:700;padding:4px 10px;border-radius:6px;margin-bottom:8px;}
